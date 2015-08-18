@@ -1,0 +1,518 @@
+From eike at ephys.de  Sat Jan 22 16:10:45 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Sat, 22 Jan 2011 16:10:45 +0100
+Subject: [pondus-dev] pondus 0.7.3 released
+Message-ID: <20110122161045.f307ddac.eike@ephys.de>
+
+Hi all,
+
+pondus 0.7.3 was released just a few hours ago. This release contains
+mainly translation and documentation updates.
+
+Further information and downloads are available at
+
+https://bitbucket.org/eike/pondus
+
+Cheers,
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 490 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110122/54ef81a4/attachment.pgp>
+
+From sh.yaron at gmail.com  Mon Jan 24 09:26:13 2011
+From: sh.yaron at gmail.com (Yaron Shahrabani)
+Date: Mon, 24 Jan 2011 10:26:13 +0200
+Subject: [pondus-dev] Hebrew translation of Pondus
+Message-ID: <AANLkTinBMUtac3N6SU-461LbT9W+NJ=-cjB1A4Unozok@mail.gmail.com>
+
+Kind regards,
+Yaron Shahrabani
+
+<Hebrew translator>
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110124/d4dd6348/attachment.html>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: pondus.he.po
+Type: text/x-gettext-translation
+Size: 10630 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110124/d4dd6348/attachment.bin>
+
+From eupiper at gmail.com  Sat Jan 29 03:02:50 2011
+From: eupiper at gmail.com (Anxo TAto)
+Date: Sat, 29 Jan 2011 03:02:50 +0100
+Subject: [pondus-dev] Pondus translation
+Message-ID: <AANLkTikUgYrpnM-DgGnA8SFrGwUq2BNVpYL-1P7viBw3@mail.gmail.com>
+
+Hello!
+
+I am Anxo, a Telecommunication Engineering student from Galicia, Spain. I
+started to use free software, Ubuntu, a few months ago. Searching on the
+Ubuntu Software Centre I found Pondus, a very usuful program. I use it a lot
+because I'm trying to lose weight and I would like to translate this program
+into Galician, a language similar to Portuguese, spoken in the north-west of
+Spain. Is there any translation into Galician or Spanish? How can I do to
+translate it? Can you send me the .po file?
+
+I wait for your answer.
+
+Anxo
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110129/788f4e14/attachment.html>
+
+From eike at ephys.de  Sat Jan 29 10:53:50 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Sat, 29 Jan 2011 10:53:50 +0100
+Subject: [pondus-dev] Pondus translation
+In-Reply-To: <AANLkTikUgYrpnM-DgGnA8SFrGwUq2BNVpYL-1P7viBw3@mail.gmail.com>
+References: <AANLkTikUgYrpnM-DgGnA8SFrGwUq2BNVpYL-1P7viBw3@mail.gmail.com>
+Message-ID: <20110129105350.44f10bcd.eike@ephys.de>
+
+Hello Anxo,
+
+great that you like Pondus that you'd like to translate it, thanks a
+lot for the offer!
+
+You can always get the current version of the po files at
+https://bitbucket.org/eike/pondus/src/tip/po/
+
+As you can see there, a Spanish (Castilian) translation exists already,
+but not a Galician one. Maybe you can use the Castilian one as a basis?
+Then, you can send the po file to the mailing list.
+
+Alternatively, you can also translate the current version online at
+https://www.transifex.net/projects/p/pondus/resource/translations/
+
+From there, I can automatically integrate the translations into the
+source repository.
+
+If you have further questions, don't hesitate to ask.
+
+Thanks again and all the best from Germany,
+
+Eike
+
+
+
+
+On Sat, 29 Jan 2011 03:02:50 +0100 Anxo TAto wrote:
+
+> Hello!
+> 
+> I am Anxo, a Telecommunication Engineering student from Galicia,
+> Spain. I started to use free software, Ubuntu, a few months ago.
+> Searching on the Ubuntu Software Centre I found Pondus, a very usuful
+> program. I use it a lot because I'm trying to lose weight and I would
+> like to translate this program into Galician, a language similar to
+> Portuguese, spoken in the north-west of Spain. Is there any
+> translation into Galician or Spanish? How can I do to translate it?
+> Can you send me the .po file?
+> 
+> I wait for your answer.
+> 
+> Anxo
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 490 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110129/59813fed/attachment.pgp>
+
+From terry.kemmerer at gmail.com  Tue Mar  8 19:32:56 2011
+From: terry.kemmerer at gmail.com (Terry)
+Date: Tue, 08 Mar 2011 11:32:56 -0700
+Subject: [pondus-dev] 2 suggestions for Pondus
+Message-ID: <1299609176.1926.20.camel@ispy>
+
+Eike,
+
+Great App! I love this program! It works great. It is just lacking one
+thing that is much more important 
+than a weight plan.
+
+When paper hits the road, life gets messy, and I have painfully
+discovered it is more important for the 
+person to learn their body and how it operates as one changes things
+around.
+
+What I am suggesting is, you allow a person to attach ACTUAL EXPERIENCE
+NOTES to each weigh-in, which 
+allows the user to show what they did the day before that resulted in
+the weigh-in results the next day. SO, 
+If I weight 170 pounds (i wish) and I walked 2 miles and deviated from
+my PLANNED DIET but eating three 
+peices of Mushroom and Olive Pizza with a friend at 3:30 pm my and thus
+gained 35 pounds (ugh!) I 
+would make the following entry on the day after I weighted 170 lbs. on
+the day that now shows 205 lbs as:
+
+2 miles, ate 3 slices of Mushroom & Olive Pizza at 3:30, didn't eat
+supper until 9 pm. Slept 8 hr
+
+
+Now, maybe I might try eating that pizza earlier in the day next time,
+or I might drop it entirely from my diet or I might decide to walk 6
+miles if I eat that, etc. The point being, long after I have forgotten
+what caused a jag on the chart, I may want to review for a pattern of
+why I lost weight and why I gained weight and where I had to change my
+diet to continue dropping in weight etc.
+
+So, I am suggesting these notes be invisible in the chart, but when you
+put your pointer on a dot on the chart it  
+displays that weight and the note, if any was made. By keeping these
+kind of notes on my paper chart I have learned how to maximize my weight
+loss by knowing what I need to do, and I have learned what things to eat
+earlier in the day and what to eat later in the day, or that I can no
+longer eat. No two human bodies react the same way, nor do they level
+the same weight and by knowing these things it is easier to speed up a
+leveling process and get back to loosing weight.
+
+The other thing is, it would be nice, but not as important as the first
+suggestion, always have your beginning and ending weight and pounds lost
+or gained print out on the chart, or at least your pounds lost or gained
+total.
+
+Thanks for a great app!
+Terry
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110308/7c96cd99/attachment.html>
+
+From eike at ephys.de  Sun Mar 13 19:30:40 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Sun, 13 Mar 2011 19:30:40 +0100
+Subject: [pondus-dev] 2 suggestions for Pondus
+In-Reply-To: <1299609176.1926.20.camel@ispy>
+References: <1299609176.1926.20.camel@ispy>
+Message-ID: <20110313193040.7b7a25d8.eike@ephys.de>
+
+Hi Terry,
+
+thanks a lot for the detailed comments and the suggestions, I am glad
+you like this program!
+
+I have actually thought about appending notes to weight entries before,
+it will be included in the next release. The tooltips in the chart are
+a great idea!
+
+As soon as I find the time, I will implement this and then let you know
+about it.
+
+All the best,
+
+Eike
+
+
+
+On Tue, 08 Mar 2011 11:32:56 -0700 Terry wrote:
+
+> Eike,
+> 
+> Great App! I love this program! It works great. It is just lacking one
+> thing that is much more important 
+> than a weight plan.
+> 
+> When paper hits the road, life gets messy, and I have painfully
+> discovered it is more important for the 
+> person to learn their body and how it operates as one changes things
+> around.
+> 
+> What I am suggesting is, you allow a person to attach ACTUAL
+> EXPERIENCE NOTES to each weigh-in, which 
+> allows the user to show what they did the day before that resulted in
+> the weigh-in results the next day. SO, 
+> If I weight 170 pounds (i wish) and I walked 2 miles and deviated from
+> my PLANNED DIET but eating three 
+> peices of Mushroom and Olive Pizza with a friend at 3:30 pm my and
+> thus gained 35 pounds (ugh!) I 
+> would make the following entry on the day after I weighted 170 lbs. on
+> the day that now shows 205 lbs as:
+> 
+> 2 miles, ate 3 slices of Mushroom & Olive Pizza at 3:30, didn't eat
+> supper until 9 pm. Slept 8 hr
+> 
+> 
+> Now, maybe I might try eating that pizza earlier in the day next time,
+> or I might drop it entirely from my diet or I might decide to walk 6
+> miles if I eat that, etc. The point being, long after I have forgotten
+> what caused a jag on the chart, I may want to review for a pattern of
+> why I lost weight and why I gained weight and where I had to change my
+> diet to continue dropping in weight etc.
+> 
+> So, I am suggesting these notes be invisible in the chart, but when
+> you put your pointer on a dot on the chart it  
+> displays that weight and the note, if any was made. By keeping these
+> kind of notes on my paper chart I have learned how to maximize my
+> weight loss by knowing what I need to do, and I have learned what
+> things to eat earlier in the day and what to eat later in the day, or
+> that I can no longer eat. No two human bodies react the same way, nor
+> do they level the same weight and by knowing these things it is
+> easier to speed up a leveling process and get back to loosing weight.
+> 
+> The other thing is, it would be nice, but not as important as the
+> first suggestion, always have your beginning and ending weight and
+> pounds lost or gained print out on the chart, or at least your pounds
+> lost or gained total.
+> 
+> Thanks for a great app!
+> Terry
+> 
+> 
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 490 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110313/e222becd/attachment.pgp>
+
+From jussilehtola at fedoraproject.org  Sun Mar 20 18:52:12 2011
+From: jussilehtola at fedoraproject.org (Jussi Lehtola)
+Date: Sun, 20 Mar 2011 19:52:12 +0200
+Subject: [pondus-dev] Bug in Pondus
+Message-ID: <20110320195212.23bd648e@tb900.no-ip.org>
+
+Hi,
+
+
+I'm the Fedora maintainer of Pondus.
+
+There seems to be something wrong with Pondus on Fedora 15
+ https://bugzilla.redhat.com/show_bug.cgi?id=689230
+
+Backtrace (copypaste from the bug report):
+
+window_main.py:333:append_dataset:TypeError: value is of wrong type for
+this column
+
+Traceback (most recent call last):
+  File "/usr/bin/pondus", line 15, in <module>
+    from pondus.gui.window_main import mainwindow
+  File "/usr/lib/python2.7/site-packages/pondus/gui/window_main.py",
+line 376, in <module> mainwindow = MainWindow()
+  File "/usr/lib/python2.7/site-packages/pondus/gui/window_main.py",
+line 117, in __init__ self.display_data(self.datasetdata)
+  File "/usr/lib/python2.7/site-packages/pondus/gui/window_main.py",
+line 325, in display_data self.append_dataset(dataset)
+  File "/usr/lib/python2.7/site-packages/pondus/gui/window_main.py",
+line 333, in append_dataset return self.datalist.append(dataset_list)
+TypeError: value is of wrong type for this column
+
+Local variables in innermost frame:
+self: <pondus.gui.window_main.MainWindow object at 0x29f0550>
+dataset: <pondus.core.dataset.Dataset object at 0x29a5850>
+dataset_list: [1, datetime.date(2011, 1, 6), 12.3]
+-- 
+Jussi Lehtola
+Fedora Project Contributor
+jussilehtola at fedoraproject.org
+
+
+From eike at ephys.de  Mon Mar 28 16:35:27 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Mon, 28 Mar 2011 16:35:27 +0200
+Subject: [pondus-dev] Bug in Pondus
+In-Reply-To: <20110320195212.23bd648e@tb900.no-ip.org>
+References: <20110320195212.23bd648e@tb900.no-ip.org>
+Message-ID: <1301322927.24274.1434677585@webmail.messagingengine.com>
+
+Hi Jussi,
+
+On Sun, 20 Mar 2011 19:52 +0200, "Jussi Lehtola"
+<jussilehtola at fedoraproject.org> wrote:
+> 
+> I'm the Fedora maintainer of Pondus.
+> 
+> There seems to be something wrong with Pondus on Fedora 15
+>  https://bugzilla.redhat.com/show_bug.cgi?id=689230
+
+thanks a lot for the notice. I will comment directly in bugzilla.
+
+Eike
+
+
+From sven.staehs at shtrudel.com  Thu May 19 22:21:17 2011
+From: sven.staehs at shtrudel.com (=?UTF-8?B?U3ZlbiBTdGFocw==?=)
+Date: Thu, 19 May 2011 16:21:17 -0400
+Subject: [pondus-dev] =?utf-8?q?feature=5FRQ=3A=5FFat/Water/Muscle?=
+Message-ID: <4c988e9aea48ac14134f4ff4f053865d@localhost>
+
+Hi,
+
+nice program, thanks for the work!
+I have a feature request though, as I just bought a scale that measures the percentage of fat, water and muscles. So it would be great to enter and plot those data, too, which should be no problem to integrate into the current data structure (all hail xml ;)).
+If you're short on time, implementing multiple users (as requested in June 2010: https://lists.berlios.de/pipermail/pondus-dev/2010/000012.html) would allow for a workaround by adding three "users" and using each one for another value. You could even add "percentage" as an available dimension (besides metric and that deprecated system the americans use) and save that as a userspecific preference in the .xml file, just to have the proper dimensions on screen ^^
+
+Well, until then, there's another workaround without the need to change anything, though you can't plot all four values side by side: Copy the user_data.xml file to, say, sven_gewicht.xml, sven_fett.xml and so on and call a script that takes one of these xml-files, renames it to user_data.xml, starts pondus and after pondus terminating re-renames it back to the original name. This is, of course, a workaround for the user feature as well, so if I should come to write that script, I'll post it here.
+
+Either way, keep up the good work!
+
+Bye, Sven
+
+
+
+
+Sent from Shtrudel M at il?- http://www.shtrudel.com
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110519/aa563358/attachment.html>
+
+From eike at ephys.de  Fri May 20 16:15:22 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Fri, 20 May 2011 16:15:22 +0200
+Subject: [pondus-dev] feature_RQ:_Fat/Water/Muscle
+In-Reply-To: <4c988e9aea48ac14134f4ff4f053865d@localhost>
+References: <4c988e9aea48ac14134f4ff4f053865d@localhost>
+Message-ID: <1305900922.16001.1454132793@webmail.messagingengine.com>
+
+Hi Sven,
+
+I actually implemented the possiblity of adding the percentage of
+bodyfat in the development version.
+
+https://bitbucket.org/eike/pondus/changesets
+
+However, plotting the bodyfat (probably as a second y-axis) still needs
+to be implemented (I have a draft version that needs improvement, since
+I don't want to clutter the user interface in the plot dialog too much).
+Once this is done I'll prepare a new release (and maybe even add
+percentage of water and muscle as well).
+
+Thanks a lot for the comments and the suggestions,
+
+Eike
+
+
+
+On Thu, 19 May 2011 16:21 -0400, "Sven Stahs" <sven.staehs at shtrudel.com>
+wrote:
+> Hi,
+>
+> nice program, thanks for the work! I have a feature request though, as
+> I just bought a scale that measures the percentage of fat, water and
+> muscles. So it would be great to enter and plot those data, too, which
+> should be no problem to integrate into the current data structure (all
+> hail xml ;)). If you're short on time, implementing multiple users (as
+> requested in June 2010:
+> https://lists.berlios.de/pipermail/pondus-dev/2010/000012.html) would
+> allow for a workaround by adding three "users" and using each one for
+> another value. You could even add "percentage" as an available
+> dimension (besides metric and that deprecated system the americans
+> use) and save that as a userspecific preference in the .xml file, just
+> to have the proper dimensions on screen ^^
+>
+> Well, until then, there's another workaround without the need to
+> change anything, though you can't plot all four values side by side:
+> Copy the user_data.xml file to, say, sven_gewicht.xml, sven_fett.xml
+> and so on and call a script that takes one of these xml-files, renames
+> it to user_data.xml, starts pondus and after pondus terminating re-
+> renames it back to the original name. This is, of course, a workaround
+> for the user feature as well, so if I should come to write that
+> script, I'll post it here.
+>
+> Either way, keep up the good work!
+>
+> Bye, Sven
+>
+
+
+From eike at ephys.de  Mon May 30 11:39:31 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Mon, 30 May 2011 11:39:31 +0200
+Subject: [pondus-dev] pondus 0.8.0rc: call for testing and translations
+Message-ID: <1306748371.4561.1457502365@webmail.messagingengine.com>
+
+Hi all,
+
+I just tagged the release candidate for pondus 0.8.0 containing the
+following new features:
+
+ * Add options to track bodyfat, muscle and water percentage (can be
+   activated in preferences)
+ * Add option to add notes to datasets (can be activated in preferences)
+ * Plot bodyfat, muscle or water using second y-axis in graph
+ * Set default plot range to "Last Year'' and replace "Last 3 months''
+   with "Last 6 months''
+ * Display bodyfat, muscle, water and notes as tooltips in main window
+
+I plan to release the final version in a week or two, so now would be
+the perfect time to update translations, test the new features or write
+comments ;-)
+
+
+1) translation updates
+
+a) Just go to
+   https://www.transifex.net/projects/p/pondus/resource/translations/
+   and update the translation
+
+or
+
+b) Get the .po file from https://bitbucket.org/eike/pondus/src/tip/po/
+   and send the updated file to me.
+
+
+2) testing for bugs
+
+Get the release candidate at https://bitbucket.org/eike/pondus/downloads
+unpack the source and execute pondus.py. There is no need to permanently
+install the release candidate.
+
+
+Thanks a lot,
+
+Eike
+
+
+
+From eike at ephys.de  Thu Jun  9 23:33:42 2011
+From: eike at ephys.de (Eike Nicklas)
+Date: Thu, 9 Jun 2011 23:33:42 +0200
+Subject: [pondus-dev] pondus 0.8.0 released
+Message-ID: <20110609233342.6fd31614.eike@ephys.de>
+
+Hi all,
+
+pondus 0.8.0 was released just a few hours ago. Here's the list of
+changes:
+
+* Bump minimum required version of python to 2.5
+* Add options to track bodyfat, muscle and water percentage (can be
+activated in preferences)
+* Add option to add notes to datasets (can be activated in preferences)
+* Plot bodyfat, muscle or water using second y-axis in graph
+* Set default plot range to "Last Year" and replace "Last 3 months"
+with "Last 6 months"
+* Display bodyfat, muscle, water and notes as tooltips in main window
+* Add Finnish translation (Thanks Esa Rautiainen)
+* Add Hebrew translation (Thanks Yaron Shahrabani)
+* Add Russian translation (Thanks Alex Slabchenko)
+* Add Turkish translation (Thanks Muhammet Kara)
+* Updated translations: bg, de, sv
+
+
+Further information and downloads are available at
+
+https://bitbucket.org/eike/pondus
+
+Cheers,
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 490 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20110609/e44196b3/attachment.pgp>
+

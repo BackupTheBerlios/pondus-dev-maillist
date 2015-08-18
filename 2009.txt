@@ -1,0 +1,568 @@
+From eike at ephys.de  Mon Dec 21 21:57:40 2009
+From: eike at ephys.de (Eike Nicklas)
+Date: Mon, 21 Dec 2009 21:57:40 +0100
+Subject: [pondus-dev] pondus 0.7.0 released
+Message-ID: <20091221215740.e37c1862.eike@ephys.de>
+
+Hi all,
+
+I am pleased to announce pondus 0.7.0. This is mainly a code clean-up
+release, while the list of user-visible changes reads as follows:
+
+* Switch to MIT license:
+   http://www.opensource.org/licenses/mit-license.php
+ * Bump minimum required version of pygtk to 2.12
+ * Import matplotlib in a separate thread in the background to reduce
+   startup time. Plotting is enabled once the import is completed.
+ * Add 'Last 3 Months' daterange to plot dialog and make it default if
+   the weight history goes further back than 3 months and if
+   measurements exist in the last 3 months
+ * When using imperial units, interpret csv-im-/exported data as lbs
+ * Fix crash when trying to smooth nonexistent data
+ * Add more tooltips to improve usability
+ * Minor performance improvements and code cleanup
+ * Updated translations: de, es, pl
+
+Thanks to all the translators!
+
+As usual, the new release can be downloaded from
+http://www.ephys.de/software/pondus/
+
+The Windows installer ist not yet updated, but should be uploaded soon.
+Installation from source should work, however.
+
+Cheers,
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091221/ed113c5b/attachment.pgp>
+
+From eike at ephys.de  Mon Dec 21 22:00:15 2009
+From: eike at ephys.de (Eike Nicklas)
+Date: Mon, 21 Dec 2009 22:00:15 +0100
+Subject: [pondus-dev] pondus moving to bitbucket, mailing list to berlios
+Message-ID: <20091221220015.5358564d.eike@ephys.de>
+
+Hi again,
+
+from now on, the development (code hosting, issue tracking, file
+downloads) of pondus will happen at Bitbucket [1] and the mailing list
+has moved to BerliOS [2]. The new list address is
+pondus-dev at lists.berlios.de. The archives of this old list will still
+be available online [3], but please send future posts to the new list.
+
+In order to ease the mailing list transition for you, you will receive
+an invitation to the new list soon.
+
+Sorry for the inconvenience,
+
+Eike
+
+
+[1] http://bitbucket.org/eike/pondus/
+[2] https://lists.berlios.de/mailman/listinfo/pondus-dev/
+[3] http://sharesource.org/pipermail/pondus-dev/
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091221/4aa718c4/attachment.pgp>
+
+From peter.talken at telia.com  Tue Dec 22 10:32:58 2009
+From: peter.talken at telia.com (Peter Landgren)
+Date: Tue, 22 Dec 2009 10:32:58 +0100
+Subject: [pondus-dev] Translation
+Message-ID: <200912221032.58767.peter.talken@telia.com>
+
+Hi,
+
+Made a translation to Swedish, which is attached.
+
+I had to change setup.py in order to get the sv directory under mo created
+(attached too.)
+
+ 
+Peter Landgren
+Talken Hagen	
+671 94  BRUNSKOG
+Sweden
+
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: sv.po
+Type: text/x-gettext-translation
+Size: 9414 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091222/7ea2d931/attachment.bin>
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: setup.py
+Type: text/x-python
+Size: 3712 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091222/7ea2d931/attachment.py>
+
+From eike at ephys.de  Tue Dec 22 23:44:36 2009
+From: eike at ephys.de (Eike Nicklas)
+Date: Tue, 22 Dec 2009 23:44:36 +0100
+Subject: [pondus-dev] Translation
+In-Reply-To: <200912221032.58767.peter.talken@telia.com>
+References: <200912221032.58767.peter.talken@telia.com>
+Message-ID: <1261521876.28245.1351389951@webmail.messagingengine.com>
+
+Hi Peter,
+
+great, thanks a lot for the translation! It is committed to the hg repo
+and will be included in the next release.
+
+Happy holidays,
+
+Eike
+
+
+On Tue, 22 Dec 2009 10:32 +0100, "Peter Landgren"
+<peter.talken at telia.com> wrote:
+> Hi,
+>
+> Made a translation to Swedish, which is attached.
+>
+> I had to change setup.py in order to get the sv directory under mo
+> created (attached too.)
+>
+
+
+From steko at iosa.it  Wed Dec 23 21:22:10 2009
+From: steko at iosa.it (Stefano Costa)
+Date: Wed, 23 Dec 2009 21:22:10 +0100
+Subject: [pondus-dev] [PATCH] update Italian translation
+Message-ID: <e42d105da511a2b49466.1261599730@localhost.localdomain>
+
+# HG changeset patch
+# User Stefano Costa <steko at iosa.it>
+# Date 1261599451 -3600
+# Node ID e42d105da511a2b494663dfb86909a52890d7870
+# Parent  de351a6549046b406623dbbb750750d1f3a0cc7a
+update Italian translation
+
+diff --git a/po/it.po b/po/it.po
+--- a/po/it.po
++++ b/po/it.po
+@@ -6,10 +6,10 @@
+ #
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: Pondus 0.5.1\n"
++"Project-Id-Version: Pondus 0.7.0\n"
+ "Report-Msgid-Bugs-To: pondus-dev at lists.berlios.de\n"
+-"POT-Creation-Date: 2009-12-04 22:28+0100\n"
+-"PO-Revision-Date: 2008-09-11 12:14+0100\n"
++"POT-Creation-Date: 2009-12-22 23:36+0100\n"
++"PO-Revision-Date: 2009-12-23 21:04+0100\n"
+ "Last-Translator: Stefano Costa <steko at iosa.it>\n"
+ "Language-Team: Italian\n"
+ "MIME-Version: 1.0\n"
+@@ -19,13 +19,11 @@
+ 
+ #: ../pondus/core/filelock.py:37
+ msgid "Datafile locked, continue?"
+-msgstr ""
++msgstr "Il file dati ? bloccato, continuare comunque?"
+ 
+ #: ../pondus/core/filelock.py:38
+-msgid ""
+-"Another instance of pondus seems to be editing the same datafile. Do you "
+-"really want to continue and loose all the changes from the other instance?"
+-msgstr ""
++msgid "Another instance of pondus seems to be editing the same datafile. Do you really want to continue and loose all the changes from the other instance?"
++msgstr "Sembra che ci sia gi? un pondus in esecuzione su questo file. Si vuole veramente continuare e perdere tutte le modifiche dell'altro programma in esecuzione?"
+ 
+ #: ../pondus/core/initialize.py:41
+ msgid "Error: Could not find"
+@@ -41,7 +39,7 @@
+ 
+ #: ../pondus/core/initialize.py:97
+ msgid "Not owning the file lock. Backing up the data to"
+-msgstr ""
++msgstr "Non si dispone del blocco sul file. Verr? effettuato un backup in"
+ 
+ #: ../pondus/core/option_parser.py:36
+ msgid "Reading file"
+@@ -55,12 +53,15 @@
+ msgid "Using the standard file ~/.pondus/user_data.xml instead."
+ msgstr "Viene usato il file standard ~/.pondus/user_data.xml in sostituzione."
+ 
+-#: ../pondus/core/plot.py:40 ../pondus/gui/dialog_plot.py:74
++#: ../pondus/core/plot.py:40
++#: ../pondus/gui/dialog_plot.py:74
+ msgid "Body Mass Index"
+ msgstr "Indice di Massa Corporea"
+ 
+-#: ../pondus/core/plot.py:42 ../pondus/gui/dialog_add.py:68
+-#: ../pondus/gui/dialog_plot.py:73 ../pondus/gui/window_main.py:119
++#: ../pondus/core/plot.py:42
++#: ../pondus/gui/dialog_add.py:68
++#: ../pondus/gui/dialog_plot.py:73
++#: ../pondus/gui/window_main.py:119
+ msgid "Weight"
+ msgstr "Peso"
+ 
+@@ -85,21 +86,21 @@
+ msgstr "Aggiungi misurazione"
+ 
+ #: ../pondus/gui/dialog_add.py:43
+-#, fuzzy
+ msgid "Date:"
+ msgstr "Data"
+ 
+ #: ../pondus/gui/dialog_add.py:57
+-#, fuzzy
+ msgid "Date (YYYY-MM-DD):"
+ msgstr "Data (YYYY-MM-DD):"
+ 
+-#: ../pondus/gui/dialog_add.py:117 ../pondus/gui/dialog_plot.py:131
++#: ../pondus/gui/dialog_add.py:117
++#: ../pondus/gui/dialog_plot.py:131
+ #: ../pondus/gui/dialog_plot.py:136
+ msgid "Error: Wrong Format"
+ msgstr "Errore: formato errato."
+ 
+-#: ../pondus/gui/dialog_add.py:118 ../pondus/gui/dialog_plot.py:132
++#: ../pondus/gui/dialog_add.py:118
++#: ../pondus/gui/dialog_plot.py:132
+ msgid "The data entered is not in the correct format!"
+ msgstr "I dati inseriti non sono nel formato corretto!"
+ 
+@@ -107,7 +108,8 @@
+ msgid "weight.csv"
+ msgstr "peso.csv"
+ 
+-#: ../pondus/gui/dialog_csv.py:36 ../pondus/gui/window_main.py:128
++#: ../pondus/gui/dialog_csv.py:36
++#: ../pondus/gui/window_main.py:128
+ msgid "Weight Measurements"
+ msgstr "Misurazioni del peso"
+ 
+@@ -115,7 +117,8 @@
+ msgid "Weight Plan"
+ msgstr "Proiezione del peso"
+ 
+-#: ../pondus/gui/dialog_csv.py:86 ../pondus/gui/window_main.py:88
++#: ../pondus/gui/dialog_csv.py:86
++#: ../pondus/gui/window_main.py:88
+ msgid "CSV Export"
+ msgstr "Esporta CSV"
+ 
+@@ -135,7 +138,8 @@
+ msgid "The export was successful."
+ msgstr "L'esportazione ? avvenuta con successo."
+ 
+-#: ../pondus/gui/dialog_csv.py:118 ../pondus/gui/window_main.py:87
++#: ../pondus/gui/dialog_csv.py:118
++#: ../pondus/gui/window_main.py:87
+ msgid "CSV Import"
+ msgstr "Importa CSV"
+ 
+@@ -181,15 +185,13 @@
+ 
+ #: ../pondus/gui/dialog_plot.py:46
+ msgid "Start date"
+-msgstr ""
++msgstr "Inizio del periodo"
+ 
+ #: ../pondus/gui/dialog_plot.py:53
+-#, fuzzy
+ msgid "End date"
+-msgstr "Modifica misurazione"
++msgstr "Fine del periodo"
+ 
+ #: ../pondus/gui/dialog_plot.py:58
+-#, fuzzy
+ msgid "Select date range of plot"
+ msgstr "Seleziona l'intervallo di tempo:"
+ 
+@@ -202,9 +204,8 @@
+ msgstr "Ultimo anno"
+ 
+ #: ../pondus/gui/dialog_plot.py:61
+-#, fuzzy
+ msgid "Last 3 Months"
+-msgstr "Ultimo mese"
++msgstr "Ultimi 3 mesi"
+ 
+ #: ../pondus/gui/dialog_plot.py:62
+ msgid "Last Month"
+@@ -212,28 +213,27 @@
+ 
+ #: ../pondus/gui/dialog_plot.py:63
+ msgid "Custom"
+-msgstr ""
++msgstr "Personalizzato"
+ 
+ #: ../pondus/gui/dialog_plot.py:70
+ msgid "Data to plot:"
+ msgstr "Dati da inserire nel grafico:"
+ 
+ #: ../pondus/gui/dialog_plot.py:78
+-msgid ""
+-"To plot your BMI, you need to enter your height in the preferences dialog."
+-msgstr ""
++msgid "To plot your BMI, you need to enter your height in the preferences dialog."
++msgstr "Per disegnare l'Indice di Massa Corporea ? necessario inserire la propria altezza nelle preferenze."
+ 
+ #: ../pondus/gui/dialog_plot.py:82
+ msgid "Raw and Smooth"
+-msgstr ""
++msgstr "Grezzo e smussato"
+ 
+ #: ../pondus/gui/dialog_plot.py:83
+ msgid "Raw"
+-msgstr ""
++msgstr "Grezzo"
+ 
+ #: ../pondus/gui/dialog_plot.py:84
+ msgid "Smooth"
+-msgstr ""
++msgstr "Smussato"
+ 
+ #: ../pondus/gui/dialog_plot.py:87
+ msgid "Include Weight Plan"
+@@ -241,7 +241,7 @@
+ 
+ #: ../pondus/gui/dialog_plot.py:91
+ msgid "The weight planner can be enabled in the preferences dialog."
+-msgstr ""
++msgstr "La proiezione del peso pu? essere abilitata nelle preferenze"
+ 
+ #: ../pondus/gui/dialog_plot.py:97
+ msgid "Save Plot"
+@@ -255,7 +255,8 @@
+ msgid "weight_plot.png"
+ msgstr "grafico_peso.png"
+ 
+-#: ../pondus/gui/dialog_preferences.py:24 ../pondus/gui/window_main.py:63
++#: ../pondus/gui/dialog_preferences.py:24
++#: ../pondus/gui/window_main.py:63
+ msgid "Preferences"
+ msgstr "Preferenze"
+ 
+@@ -292,19 +293,16 @@
+ msgstr "anglosassone"
+ 
+ #: ../pondus/gui/dialog_preferences.py:94
+-#, fuzzy
+ msgid "Enable Weight Planner"
+ msgstr "Usa la proiezione del peso"
+ 
+ #: ../pondus/gui/dialog_preferences.py:101
+ msgid "Use Calendar in Add Dialog"
+-msgstr ""
++msgstr "Usa un calendario nella finestra Aggiungi misurazione"
+ 
+ #: ../pondus/gui/dialog_preferences.py:105
+-msgid ""
+-"Use a calendar widget instead of a text entry to enter dates in the add/edit "
+-"dialog"
+-msgstr ""
++msgid "Use a calendar widget instead of a text entry to enter dates in the add/edit dialog"
++msgstr "Mostra un calendario invece che inserire manualmente le date"
+ 
+ #: ../pondus/gui/dialog_preferences.py:109
+ msgid "Remember Window Size"
+@@ -323,17 +321,14 @@
+ msgstr "Seleziona file"
+ 
+ #: ../pondus/gui/window_main.py:55
+-#, fuzzy
+ msgid "Add dataset"
+ msgstr "Aggiungi misurazione"
+ 
+ #: ../pondus/gui/window_main.py:57
+-#, fuzzy
+ msgid "Edit selected dataset"
+-msgstr "Elimina la riga selezionata"
++msgstr "Modifica la misurazione selezionata"
+ 
+ #: ../pondus/gui/window_main.py:59
+-#, fuzzy
+ msgid "Delete selected dataset"
+ msgstr "Elimina la riga selezionata"
+ 
+@@ -347,7 +342,7 @@
+ 
+ #: ../pondus/gui/window_main.py:65
+ msgid "Quit"
+-msgstr ""
++msgstr "Esci"
+ 
+ #: ../pondus/gui/window_main.py:118
+ msgid "Date"
+@@ -366,21 +361,17 @@
+ msgstr "Si desidera veramente rimuovere questa misurazione?"
+ 
+ #: ../pondus/gui/window_main.py:353
+-#, fuzzy
+ msgid "Note: python-matplotlib is not installed, plotting disabled!"
+-msgstr ""
+-"Avviso: Matplotlib non ? disponibile, la creazione di grafici ? disabilitata"
++msgstr "Avviso: Matplotlib non ? disponibile, la creazione di grafici ? disabilitata"
+ 
+ #: ../pondus/gui/window_main.py:363
+-#, fuzzy
+ msgid "Plot weight data"
+ msgstr "Crea un grafico del peso"
+ 
+ #~ msgid "Add more data"
+ #~ msgstr "Aggiungi una misurazione"
+-
+ #~ msgid "Plot data"
+ #~ msgstr "Crea un grafico"
+-
+ #~ msgid "Update"
+ #~ msgstr "Aggiorna"
++
+
+From eike at ephys.de  Wed Dec 23 23:39:45 2009
+From: eike at ephys.de (Eike Nicklas)
+Date: Wed, 23 Dec 2009 23:39:45 +0100
+Subject: [pondus-dev] [PATCH] update Italian translation
+In-Reply-To: <e42d105da511a2b49466.1261599730@localhost.localdomain>
+References: <e42d105da511a2b49466.1261599730@localhost.localdomain>
+Message-ID: <20091223233945.11ad185d.eike@ephys.de>
+
+Thanks a lot, Stefano! Committed the patch.
+
+Happy holidays,
+Eike
+
+
+On Wed, 23 Dec 2009 21:22:10 +0100 Stefano Costa wrote:
+
+> # HG changeset patch
+> # User Stefano Costa <steko at iosa.it>
+> # Date 1261599451 -3600
+> # Node ID e42d105da511a2b494663dfb86909a52890d7870
+> # Parent  de351a6549046b406623dbbb750750d1f3a0cc7a
+> update Italian translation
+> 
+[snip]
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091223/83fcfd22/attachment.pgp>
+
+From steko at iosa.it  Thu Dec 24 00:01:41 2009
+From: steko at iosa.it (Stefano Costa)
+Date: Thu, 24 Dec 2009 00:01:41 +0100
+Subject: [pondus-dev] [PATCH] update Italian translation
+In-Reply-To: <20091223233945.11ad185d.eike@ephys.de>
+References: <e42d105da511a2b49466.1261599730@localhost.localdomain>
+	<20091223233945.11ad185d.eike@ephys.de>
+Message-ID: <1261609301.2762.7.camel@gibreel>
+
+Il giorno mer, 23/12/2009 alle 23.39 +0100, Eike Nicklas ha scritto:
+> 
+> Thanks a lot, Stefano! Committed the patch. 
+
+I'm sorry I didn't make it in time for 0.7.0, but I think it will fit OK
+for the next minor release.
+
+Happy holidays!
+steko
+
+-- 
+Stefano Costa
+http://www.iosa.it/ Open Archaeology
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: signature.asc
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: Questa ? una parte del messaggio firmata digitalmente
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091224/3dc23a52/attachment.pgp>
+
+From eike at ephys.de  Mon Dec 28 13:57:22 2009
+From: eike at ephys.de (Eike Nicklas)
+Date: Mon, 28 Dec 2009 13:57:22 +0100
+Subject: [pondus-dev] pondus issue
+In-Reply-To: <1255440503.3924.1.camel@hao-laptop>
+References: <1255440503.3924.1.camel@hao-laptop>
+Message-ID: <20091228135722.687823b6.eike@ephys.de>
+
+Hi,
+
+[Sorry for the late reply. The mailing list was unavailable and your
+mail arrived just a few hours ago. The new mailing list is
+pondus-dev at lists.berlios.de]
+
+On Tue, 13 Oct 2009 09:28:23 -0400 Hao Wen wrote:
+
+> I am using Pondus to keep track of my weight. But I cannot find a
+> intuitive way to transfer or backup my data. Is there any?
+
+The data is stored in your homefolder at ~/.pondus/user_data.xml. You
+can simply copy this file to backup your data.
+
+Alternatively, you can im-/export the data to comma separated value
+(csv) with the drop-down menu right next to the preferences button.
+
+Have a good start into 2010,
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091228/a17b3e1c/attachment.pgp>
+
+From eike at ephys.de  Mon Dec 28 15:54:05 2009
+From: eike at ephys.de (Eike Nicklas)
+Date: Mon, 28 Dec 2009 15:54:05 +0100
+Subject: [pondus-dev] Wii Balance Board input
+In-Reply-To: <1257128008.32429.17.camel@r61i>
+References: <1257128008.32429.17.camel@r61i>
+Message-ID: <20091228155405.2940b6a9.eike@ephys.de>
+
+Hi Chris,
+
+[Sorry for the late reply. The mailing list was unavailable and your
+mail arrived just a few hours ago. The new mailing list is
+pondus-dev at lists.berlios.de]
+
+On Sun, 01 Nov 2009 21:13:28 -0500 Chris wrote:
+
+> I just stumbled onto your pondus site. It seems like a great project.
+> I have been working on adapting the Wii Balance Board for use as a
+> scale and was wondering if it would be possible for pondus to recieve
+> data from the balance board. I am using the python-cwiid library to
+> connect to the balance board. If you want to know more about cwiid
+> look into the following links
+
+[snip]
+
+That sounds like an interesting idea, thanks for the links! I might have
+a Wii with Balance Board available to play with it soon and will have a
+closer look then, if time permits. Such functionality would be nice to
+have (optionally, as a plug-in-type thing, since most people probably
+use 'traditional' scales)
+
+Have a good start into 2010,
+
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20091228/98c1ff2c/attachment.pgp>
+

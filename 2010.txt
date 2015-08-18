@@ -1,0 +1,151 @@
+From eike at ephys.de  Tue Jan 26 00:10:28 2010
+From: eike at ephys.de (Eike Nicklas)
+Date: Tue, 26 Jan 2010 00:10:28 +0100
+Subject: [pondus-dev] pondus 0.7.1 released
+Message-ID: <20100126001028.9387b45d.eike@ephys.de>
+
+Hi all,
+
+I am pleased to announce pondus 0.7.1. This release mainly updates the
+translations and fixes a minor annoyance.
+
+As usual, the new release can be downloaded from
+http://www.ephys.de/software/pondus/
+
+Cheers,
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20100126/d2e51028/attachment.pgp>
+
+From eike at ephys.de  Sun Feb 14 18:49:14 2010
+From: eike at ephys.de (Eike Nicklas)
+Date: Sun, 14 Feb 2010 18:49:14 +0100
+Subject: [pondus-dev] pondus 0.7.2 released
+Message-ID: <20100214184914.8cc86101.eike@ephys.de>
+
+Hi all,
+
+I just released pondus 0.7.2. This release fixes a bug introduced in
+0.7.0 that prevented pondus from starting on windows.
+
+As usual, the new release can be downloaded from
+http://www.ephys.de/software/pondus/
+
+Cheers,
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20100214/d0c299cd/attachment.pgp>
+
+From eike at ephys.de  Tue Mar 16 22:30:40 2010
+From: eike at ephys.de (Eike Nicklas)
+Date: Tue, 16 Mar 2010 22:30:40 +0100
+Subject: [pondus-dev] translations via transifex
+Message-ID: <20100316223040.299c45ff.eike@ephys.de>
+
+Hi all,
+
+from now on, translations can be added and modified via Transifex [1].
+All changes will be committed automatically to the translations
+repository [2].
+
+Of course, contributing translations the 'old way', i.e. by sending .po
+files to this mailing list is still possible as before.
+
+Cheers,
+Eike
+
+
+[1] https://www.transifex.net/projects/p/pondus/c/translations/
+[2] http://bitbucket.org/eike/pondus-translations/
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 198 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20100316/d0446803/attachment.pgp>
+
+From juan.sorroche at gmail.com  Mon Jun 28 12:29:56 2010
+From: juan.sorroche at gmail.com (Juan Sorroche)
+Date: Mon, 28 Jun 2010 12:29:56 +0200
+Subject: [pondus-dev] Suggestion
+Message-ID: <1277720996.1920.60.camel@juan-fnak>
+
+Hello,
+
+Thank you very much for the excellent free software Pondus. I'm sorry, I
+don't speak english very well.
+
+I have a suggestion. Today, it's not possible to have multiple users in
+Pondus. We (my wife and myself) would like to use Pondus in the same
+window in order to compare our weight evolution. Other users would be
+interested in this feature.
+
+If you have any questions, don't hesitate to contact me.
+
+Have a nice day.
+
+Cordialy,
+
+Juan Sorroche
+
+
+
+
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20100628/867b00b7/attachment.html>
+
+From eike at ephys.de  Tue Jun 29 00:15:59 2010
+From: eike at ephys.de (Eike Nicklas)
+Date: Tue, 29 Jun 2010 00:15:59 +0200
+Subject: [pondus-dev] Suggestion
+In-Reply-To: <1277720996.1920.60.camel@juan-fnak>
+References: <1277720996.1920.60.camel@juan-fnak>
+Message-ID: <20100629001559.ac62a7d3.eike@ephys.de>
+
+Hi Juan,
+
+On Mon, 28 Jun 2010 12:29:56 +0200 Juan Sorroche wrote:
+
+> 
+> I have a suggestion. Today, it's not possible to have multiple users
+> in Pondus. We (my wife and myself) would like to use Pondus in the
+> same window in order to compare our weight evolution. Other users
+> would be interested in this feature.
+> 
+
+Thanks a lot for the suggestion. Actually this idea has been proposed
+several times now, so I will definitely include this feature in the
+next major version of pondus (I don't have much time to code currently,
+but there will be some occasions in the next few months, I hope).
+
+I am thinking of the following:
+ * The user whose data is displayed/entered/edited/ can be selected in
+    the main window via a drop-down menu.
+ * The weight evolution of different users can be compared graphically
+    in a plot containing the weights of the users vs time.
+
+Is that about what you were thinking of?
+
+Thanks again for your comments,
+
+Eike
+-------------- next part --------------
+A non-text attachment was scrubbed...
+Name: not available
+Type: application/pgp-signature
+Size: 490 bytes
+Desc: not available
+URL: <https://lists.berlios.de/pipermail/pondus-dev/attachments/20100629/d35f2487/attachment.pgp>
+

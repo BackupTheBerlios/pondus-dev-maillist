@@ -1,0 +1,343 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML>
+ <HEAD>
+   <TITLE> [pondus-dev] [PATCH] update Italian translation
+   </TITLE>
+   <LINK REL="Index" HREF="http://lists.berlios.de/pipermail/pondus-dev/2009/index.html" >
+   <LINK REL="made" HREF="mailto:pondus-dev%40lists.berlios.de?Subject=Re%3A%20%5Bpondus-dev%5D%20%5BPATCH%5D%20update%20Italian%20translation&In-Reply-To=%3Ce42d105da511a2b49466.1261599730%40localhost.localdomain%3E">
+   <META NAME="robots" CONTENT="index,nofollow">
+   <style type="text/css">
+       pre {
+           white-space: pre-wrap;       /* css-2.1, curent FF, Opera, Safari */
+           }
+   </style>
+   <META http-equiv="Content-Type" content="text/html; charset=us-ascii">
+   <LINK REL="Previous"  HREF="000003.html">
+   <LINK REL="Next"  HREF="000005.html">
+ </HEAD>
+ <BODY BGCOLOR="#ffffff">
+   <H1>[pondus-dev] [PATCH] update Italian translation</H1>
+    <B>Stefano Costa</B> 
+    <A HREF="mailto:pondus-dev%40lists.berlios.de?Subject=Re%3A%20%5Bpondus-dev%5D%20%5BPATCH%5D%20update%20Italian%20translation&In-Reply-To=%3Ce42d105da511a2b49466.1261599730%40localhost.localdomain%3E"
+       TITLE="[pondus-dev] [PATCH] update Italian translation">steko at iosa.it
+       </A><BR>
+    <I>Wed Dec 23 21:22:10 CET 2009</I>
+    <P><UL>
+        <LI>Previous message: <A HREF="000003.html">[pondus-dev] Translation
+</A></li>
+        <LI>Next message: <A HREF="000005.html">[pondus-dev] [PATCH] update Italian translation
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#4">[ date ]</a>
+              <a href="thread.html#4">[ thread ]</a>
+              <a href="subject.html#4">[ subject ]</a>
+              <a href="author.html#4">[ author ]</a>
+         </LI>
+       </UL>
+    <HR>  
+<!--beginarticle-->
+<PRE># HG changeset patch
+# User Stefano Costa &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/pondus-dev">steko at iosa.it</A>&gt;
+# Date 1261599451 -3600
+# Node ID e42d105da511a2b494663dfb86909a52890d7870
+# Parent  de351a6549046b406623dbbb750750d1f3a0cc7a
+update Italian translation
+
+diff --git a/po/it.po b/po/it.po
+--- a/po/it.po
++++ b/po/it.po
+@@ -6,10 +6,10 @@
+ #
+ msgid &quot;&quot;
+ msgstr &quot;&quot;
+-&quot;Project-Id-Version: Pondus 0.5.1\n&quot;
++&quot;Project-Id-Version: Pondus 0.7.0\n&quot;
+ &quot;Report-Msgid-Bugs-To: <A HREF="https://lists.berlios.de/mailman/listinfo/pondus-dev">pondus-dev at lists.berlios.de</A>\n&quot;
+-&quot;POT-Creation-Date: 2009-12-04 22:28+0100\n&quot;
+-&quot;PO-Revision-Date: 2008-09-11 12:14+0100\n&quot;
++&quot;POT-Creation-Date: 2009-12-22 23:36+0100\n&quot;
++&quot;PO-Revision-Date: 2009-12-23 21:04+0100\n&quot;
+ &quot;Last-Translator: Stefano Costa &lt;<A HREF="https://lists.berlios.de/mailman/listinfo/pondus-dev">steko at iosa.it</A>&gt;\n&quot;
+ &quot;Language-Team: Italian\n&quot;
+ &quot;MIME-Version: 1.0\n&quot;
+@@ -19,13 +19,11 @@
+ 
+ #: ../pondus/core/filelock.py:37
+ msgid &quot;Datafile locked, continue?&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Il file dati &#232; bloccato, continuare comunque?&quot;
+ 
+ #: ../pondus/core/filelock.py:38
+-msgid &quot;&quot;
+-&quot;Another instance of pondus seems to be editing the same datafile. Do you &quot;
+-&quot;really want to continue and loose all the changes from the other instance?&quot;
+-msgstr &quot;&quot;
++msgid &quot;Another instance of pondus seems to be editing the same datafile. Do you really want to continue and loose all the changes from the other instance?&quot;
++msgstr &quot;Sembra che ci sia gi&#224; un pondus in esecuzione su questo file. Si vuole veramente continuare e perdere tutte le modifiche dell'altro programma in esecuzione?&quot;
+ 
+ #: ../pondus/core/initialize.py:41
+ msgid &quot;Error: Could not find&quot;
+@@ -41,7 +39,7 @@
+ 
+ #: ../pondus/core/initialize.py:97
+ msgid &quot;Not owning the file lock. Backing up the data to&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Non si dispone del blocco sul file. Verr&#224; effettuato un backup in&quot;
+ 
+ #: ../pondus/core/option_parser.py:36
+ msgid &quot;Reading file&quot;
+@@ -55,12 +53,15 @@
+ msgid &quot;Using the standard file ~/.pondus/user_data.xml instead.&quot;
+ msgstr &quot;Viene usato il file standard ~/.pondus/user_data.xml in sostituzione.&quot;
+ 
+-#: ../pondus/core/plot.py:40 ../pondus/gui/dialog_plot.py:74
++#: ../pondus/core/plot.py:40
++#: ../pondus/gui/dialog_plot.py:74
+ msgid &quot;Body Mass Index&quot;
+ msgstr &quot;Indice di Massa Corporea&quot;
+ 
+-#: ../pondus/core/plot.py:42 ../pondus/gui/dialog_add.py:68
+-#: ../pondus/gui/dialog_plot.py:73 ../pondus/gui/window_main.py:119
++#: ../pondus/core/plot.py:42
++#: ../pondus/gui/dialog_add.py:68
++#: ../pondus/gui/dialog_plot.py:73
++#: ../pondus/gui/window_main.py:119
+ msgid &quot;Weight&quot;
+ msgstr &quot;Peso&quot;
+ 
+@@ -85,21 +86,21 @@
+ msgstr &quot;Aggiungi misurazione&quot;
+ 
+ #: ../pondus/gui/dialog_add.py:43
+-#, fuzzy
+ msgid &quot;Date:&quot;
+ msgstr &quot;Data&quot;
+ 
+ #: ../pondus/gui/dialog_add.py:57
+-#, fuzzy
+ msgid &quot;Date (YYYY-MM-DD):&quot;
+ msgstr &quot;Data (YYYY-MM-DD):&quot;
+ 
+-#: ../pondus/gui/dialog_add.py:117 ../pondus/gui/dialog_plot.py:131
++#: ../pondus/gui/dialog_add.py:117
++#: ../pondus/gui/dialog_plot.py:131
+ #: ../pondus/gui/dialog_plot.py:136
+ msgid &quot;Error: Wrong Format&quot;
+ msgstr &quot;Errore: formato errato.&quot;
+ 
+-#: ../pondus/gui/dialog_add.py:118 ../pondus/gui/dialog_plot.py:132
++#: ../pondus/gui/dialog_add.py:118
++#: ../pondus/gui/dialog_plot.py:132
+ msgid &quot;The data entered is not in the correct format!&quot;
+ msgstr &quot;I dati inseriti non sono nel formato corretto!&quot;
+ 
+@@ -107,7 +108,8 @@
+ msgid &quot;weight.csv&quot;
+ msgstr &quot;peso.csv&quot;
+ 
+-#: ../pondus/gui/dialog_csv.py:36 ../pondus/gui/window_main.py:128
++#: ../pondus/gui/dialog_csv.py:36
++#: ../pondus/gui/window_main.py:128
+ msgid &quot;Weight Measurements&quot;
+ msgstr &quot;Misurazioni del peso&quot;
+ 
+@@ -115,7 +117,8 @@
+ msgid &quot;Weight Plan&quot;
+ msgstr &quot;Proiezione del peso&quot;
+ 
+-#: ../pondus/gui/dialog_csv.py:86 ../pondus/gui/window_main.py:88
++#: ../pondus/gui/dialog_csv.py:86
++#: ../pondus/gui/window_main.py:88
+ msgid &quot;CSV Export&quot;
+ msgstr &quot;Esporta CSV&quot;
+ 
+@@ -135,7 +138,8 @@
+ msgid &quot;The export was successful.&quot;
+ msgstr &quot;L'esportazione &#232; avvenuta con successo.&quot;
+ 
+-#: ../pondus/gui/dialog_csv.py:118 ../pondus/gui/window_main.py:87
++#: ../pondus/gui/dialog_csv.py:118
++#: ../pondus/gui/window_main.py:87
+ msgid &quot;CSV Import&quot;
+ msgstr &quot;Importa CSV&quot;
+ 
+@@ -181,15 +185,13 @@
+ 
+ #: ../pondus/gui/dialog_plot.py:46
+ msgid &quot;Start date&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Inizio del periodo&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:53
+-#, fuzzy
+ msgid &quot;End date&quot;
+-msgstr &quot;Modifica misurazione&quot;
++msgstr &quot;Fine del periodo&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:58
+-#, fuzzy
+ msgid &quot;Select date range of plot&quot;
+ msgstr &quot;Seleziona l'intervallo di tempo:&quot;
+ 
+@@ -202,9 +204,8 @@
+ msgstr &quot;Ultimo anno&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:61
+-#, fuzzy
+ msgid &quot;Last 3 Months&quot;
+-msgstr &quot;Ultimo mese&quot;
++msgstr &quot;Ultimi 3 mesi&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:62
+ msgid &quot;Last Month&quot;
+@@ -212,28 +213,27 @@
+ 
+ #: ../pondus/gui/dialog_plot.py:63
+ msgid &quot;Custom&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Personalizzato&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:70
+ msgid &quot;Data to plot:&quot;
+ msgstr &quot;Dati da inserire nel grafico:&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:78
+-msgid &quot;&quot;
+-&quot;To plot your BMI, you need to enter your height in the preferences dialog.&quot;
+-msgstr &quot;&quot;
++msgid &quot;To plot your BMI, you need to enter your height in the preferences dialog.&quot;
++msgstr &quot;Per disegnare l'Indice di Massa Corporea &#232; necessario inserire la propria altezza nelle preferenze.&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:82
+ msgid &quot;Raw and Smooth&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Grezzo e smussato&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:83
+ msgid &quot;Raw&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Grezzo&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:84
+ msgid &quot;Smooth&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Smussato&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:87
+ msgid &quot;Include Weight Plan&quot;
+@@ -241,7 +241,7 @@
+ 
+ #: ../pondus/gui/dialog_plot.py:91
+ msgid &quot;The weight planner can be enabled in the preferences dialog.&quot;
+-msgstr &quot;&quot;
++msgstr &quot;La proiezione del peso pu&#242; essere abilitata nelle preferenze&quot;
+ 
+ #: ../pondus/gui/dialog_plot.py:97
+ msgid &quot;Save Plot&quot;
+@@ -255,7 +255,8 @@
+ msgid &quot;weight_plot.png&quot;
+ msgstr &quot;grafico_peso.png&quot;
+ 
+-#: ../pondus/gui/dialog_preferences.py:24 ../pondus/gui/window_main.py:63
++#: ../pondus/gui/dialog_preferences.py:24
++#: ../pondus/gui/window_main.py:63
+ msgid &quot;Preferences&quot;
+ msgstr &quot;Preferenze&quot;
+ 
+@@ -292,19 +293,16 @@
+ msgstr &quot;anglosassone&quot;
+ 
+ #: ../pondus/gui/dialog_preferences.py:94
+-#, fuzzy
+ msgid &quot;Enable Weight Planner&quot;
+ msgstr &quot;Usa la proiezione del peso&quot;
+ 
+ #: ../pondus/gui/dialog_preferences.py:101
+ msgid &quot;Use Calendar in Add Dialog&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Usa un calendario nella finestra Aggiungi misurazione&quot;
+ 
+ #: ../pondus/gui/dialog_preferences.py:105
+-msgid &quot;&quot;
+-&quot;Use a calendar widget instead of a text entry to enter dates in the add/edit &quot;
+-&quot;dialog&quot;
+-msgstr &quot;&quot;
++msgid &quot;Use a calendar widget instead of a text entry to enter dates in the add/edit dialog&quot;
++msgstr &quot;Mostra un calendario invece che inserire manualmente le date&quot;
+ 
+ #: ../pondus/gui/dialog_preferences.py:109
+ msgid &quot;Remember Window Size&quot;
+@@ -323,17 +321,14 @@
+ msgstr &quot;Seleziona file&quot;
+ 
+ #: ../pondus/gui/window_main.py:55
+-#, fuzzy
+ msgid &quot;Add dataset&quot;
+ msgstr &quot;Aggiungi misurazione&quot;
+ 
+ #: ../pondus/gui/window_main.py:57
+-#, fuzzy
+ msgid &quot;Edit selected dataset&quot;
+-msgstr &quot;Elimina la riga selezionata&quot;
++msgstr &quot;Modifica la misurazione selezionata&quot;
+ 
+ #: ../pondus/gui/window_main.py:59
+-#, fuzzy
+ msgid &quot;Delete selected dataset&quot;
+ msgstr &quot;Elimina la riga selezionata&quot;
+ 
+@@ -347,7 +342,7 @@
+ 
+ #: ../pondus/gui/window_main.py:65
+ msgid &quot;Quit&quot;
+-msgstr &quot;&quot;
++msgstr &quot;Esci&quot;
+ 
+ #: ../pondus/gui/window_main.py:118
+ msgid &quot;Date&quot;
+@@ -366,21 +361,17 @@
+ msgstr &quot;Si desidera veramente rimuovere questa misurazione?&quot;
+ 
+ #: ../pondus/gui/window_main.py:353
+-#, fuzzy
+ msgid &quot;Note: python-matplotlib is not installed, plotting disabled!&quot;
+-msgstr &quot;&quot;
+-&quot;Avviso: Matplotlib non &#232; disponibile, la creazione di grafici &#232; disabilitata&quot;
++msgstr &quot;Avviso: Matplotlib non &#232; disponibile, la creazione di grafici &#232; disabilitata&quot;
+ 
+ #: ../pondus/gui/window_main.py:363
+-#, fuzzy
+ msgid &quot;Plot weight data&quot;
+ msgstr &quot;Crea un grafico del peso&quot;
+ 
+ #~ msgid &quot;Add more data&quot;
+ #~ msgstr &quot;Aggiungi una misurazione&quot;
+-
+ #~ msgid &quot;Plot data&quot;
+ #~ msgstr &quot;Crea un grafico&quot;
+-
+ #~ msgid &quot;Update&quot;
+ #~ msgstr &quot;Aggiorna&quot;
++
+</PRE>
+
+<!--endarticle-->
+    <HR>
+    <P><UL>
+        <!--threads-->
+	<LI>Previous message: <A HREF="000003.html">[pondus-dev] Translation
+</A></li>
+	<LI>Next message: <A HREF="000005.html">[pondus-dev] [PATCH] update Italian translation
+</A></li>
+         <LI> <B>Messages sorted by:</B> 
+              <a href="date.html#4">[ date ]</a>
+              <a href="thread.html#4">[ thread ]</a>
+              <a href="subject.html#4">[ subject ]</a>
+              <a href="author.html#4">[ author ]</a>
+         </LI>
+       </UL>
+
+<hr>
+<a href="https://lists.berlios.de/mailman/listinfo/pondus-dev">More information about the pondus-dev
+mailing list</a><br>
+</body></html>
